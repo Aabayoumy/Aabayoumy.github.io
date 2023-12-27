@@ -14,7 +14,7 @@ showTableOfContents: true
 showComments: true
 ---
 
-![](./cover-ntp.jpg)
+![](/images/cover-ntp.jpg)
 
 This is enhanced ver of old [Microsoft Article](https://learn.microsoft.com/en-us/archive/blogs/nepapfe/its-simple-time-configuration-in-active-directory)
 
