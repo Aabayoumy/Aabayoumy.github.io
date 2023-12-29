@@ -1,9 +1,9 @@
 ---
-title: "Time Sync Configuration in Active Directory"
+title: "Time Sync Configuration in Active Directory By GPO"
 external: false
 date: 2023-01-13
 draft: false
-description: "Time Configuration in Active Directory"
+description: "Time Sync Configuration in Active Directory"
 slug: "ntp"
 tags: ["Active Directory", "NTP", "Windows Time Service"]
 showDate: true
