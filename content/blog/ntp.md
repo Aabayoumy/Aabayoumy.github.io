@@ -6,12 +6,10 @@ draft: false
 description: "Time Sync Configuration in Active Directory"
 slug: "ntp"
 tags: ["Active Directory", "NTP", "Windows Time Service"]
-showDate: true
-showAuthor: true
-showReadingTime: true
-showEdit: false
-showTableOfContents: true
-showComments: true
+image: {
+  src: "/images/cover-ntp.jpg",
+  alt: "AD NTP GP",
+}
 ---
 
 ![](/images/cover-ntp.jpg)

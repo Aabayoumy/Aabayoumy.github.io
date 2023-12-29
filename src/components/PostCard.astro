@@ -1,10 +1,4 @@
 ---
-// library imports
-import { Image } from "@astrojs/image/components";
-
-// component imports
-import Link from "./Link.astro";
-
 // utils imports
 import { slugify, formatDate } from "../js/utils";
 
@@ -20,7 +14,7 @@ const { title, date, author, image, description, category } = frontmatter;
     <a href={`/category/${slugify(category)}/`} class="badge">{category}</a>
   </small>
   <a href={url} aria-hidden="true" tabindex="-1">
-    <Image
+    <!-- <Img
       src={image.src}
       alt={image.alt}
       width="400"
@@ -29,7 +23,12 @@ const { title, date, author, image, description, category } = frontmatter;
       fit="cover"
       quality={80}
       aspectRatio="4:1"
-    />
+    /> -->
+    <img       
+    src={image.src}
+    alt={image.alt}
+    width="400"
+    height="250">
   </a>
   <div class="content">
     <div>
@@ -43,6 +42,6 @@ const { title, date, author, image, description, category } = frontmatter;
       </small>
     </div>
     <p>{description}</p>
-    <Link href={url} text="Read Post" style="secondary" />
+    <a href={url}>Read Post</a>
   </div>
 </article>

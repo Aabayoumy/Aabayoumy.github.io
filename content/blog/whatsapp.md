@@ -4,7 +4,14 @@ description: "when i leave from Microsoft this what i received form my friends a
 date: 2022-12-22
 draft: false
 external: false
-
+ogImageAbsoluteUrl: "/images/cover-whatsapp.jpg"
+ogImageAltText: "WhatsApp"
+ogImageWidth: 600
+ogImageHeight: 400
+image: {
+  src: "/images/cover-whatsapp.jpg",
+  alt: "whatsapp msg",
+}
 ---
 
 👋 Hello, when i leave from Microsoft this what i received form my friends and colleges there 💕
