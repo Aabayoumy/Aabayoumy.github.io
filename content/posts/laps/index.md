@@ -13,7 +13,7 @@ Active Directory
 ## Prerequisite
 
 - Implement new LAPS https://learn.microsoft.com/en-us/windows-server/identity/laps/laps-overview
-- This script will not work with legacy LAPS
+- You can use same script for legacy LAPS but Last command will not work with legacy LAPS
 
 ## PowerShell Script
 
@@ -23,7 +23,7 @@ if ($op.Count -eq 0) { # if user not exist - create it
 $password = ConvertTo-SecureString "P@ssw0rd@1411P@ssw0rd" -AsPlainText -Force
 New-LocalUser -Name "ladmin" -Password $password -FullName "adminuser" -Description "Local Admin For LAPS"
 
-Add-LocalGroupMember -Name 'Administrators' -Member 'adminUser'
+Add-LocalGroupMember -Name 'Administrators' -Member 'ladmin'
 Reset-LapsPassword # LAPS wil lreset the password
 }
 ```
