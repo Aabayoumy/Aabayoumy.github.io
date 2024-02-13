@@ -1,16 +1,15 @@
 ---
-title = 'PingCastle'
-date = 2024-02-13
+title: 'PingCastle'
+date: 2024-02-13
 draft: false
 tags: ["Active Directory", "Security Hardining"]
-date: 2019-01-24
 externalUrl: "https://www.pingcastle.com/"
-summary: "`externalUrl` to PingCastle tool."
+summary: "PingCastle is an Active Directory security assessment tool."
 showReadingTime: false
 _build:
   render: "never"
   list: "local"
 ---
 
-PingCastle was born based on a finding: security based only on technology does not work. That’s why the company focuses on process and people rather than just technology. We do not sell products !
+PingCastle is an Active Directory security assessment tool. It is designed to assess the Active Directory security level based on a risk and maturity framework. The tool helps you build a prioritized list of issues that need addressing in Active Directory. It does not aim at a perfect evaluation but rather as an efficiency compromise1.
 
