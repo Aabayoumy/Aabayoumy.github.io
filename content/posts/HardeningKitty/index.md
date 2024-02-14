@@ -3,7 +3,7 @@ title: 'HardeningKitty'
 date: 2024-02-14
 draft: false
 tags: ["Active Directory", "Security Hardening","Links"]
-externalUrl: "HardeningKitty"
+externalUrl: "https://github.com/scipag/HardeningKitty"
 summary: "HardeningKitty supports hardening of a Windows system."
 showReadingTime: false
 ---
