@@ -2,7 +2,7 @@
 title: 'PingCastle'
 date: 2024-02-13
 draft: false
-tags: ["Active Directory", "Security Hardining"]
+tags: ["Active Directory", "Security Hardening","Links"]
 externalUrl: "https://www.pingcastle.com/"
 summary: "PingCastle is an Active Directory security assessment tool."
 showReadingTime: false
