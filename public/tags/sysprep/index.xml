@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SysPrep on ✨ Bayoumy blog</title>
+    <link>http://localhost:1313/tags/sysprep/</link>
+    <description>Recent content in SysPrep on ✨ Bayoumy blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>2022 ©️ abayoumy@outlook.com</copyright>
+    <lastBuildDate>Mon, 16 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/sysprep/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2- Create Windows Server 2022 Master Disk with SysPrep</title>
+      <link>http://localhost:1313/posts/master2022/</link>
+      <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/master2022/</guid>
+      <description>Hyper-V Windows Server 2022 PreRequest : Hyper-v installation #Create Windows server 2022 VM .</description>
+    </item>
+  </channel>
+</rss>

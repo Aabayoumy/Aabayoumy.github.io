@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Certificate Authority on ✨ Bayoumy blog</title>
+    <link>http://localhost:1313/tags/certificate-authority/</link>
+    <description>Recent content in Certificate Authority on ✨ Bayoumy blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>2022 ©️ abayoumy@outlook.com</copyright>
+    <lastBuildDate>Sun, 07 May 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/certificate-authority/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>4- Install Certificate Authority</title>
+      <link>http://localhost:1313/posts/certificateauthority/</link>
+      <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/certificateauthority/</guid>
+      <description>Certificate Authority Active Directory We need Certificate Authority to secure LDAP , Remote Desktop &amp;amp; Remote PowerShell Connections.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+      <url>
+            <loc>http://localhost:1313/</loc>
+            <lastmod>2024-03-30T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/</loc>
+            <lastmod>2024-03-30T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/proxmox/</loc>
+            <lastmod>2024-03-30T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/hardeningkitty/</loc>
+            <lastmod>2024-02-14T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/pingcastle/</loc>
+            <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/rdp/</loc>
+            <lastmod>2023-05-30T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/laps/</loc>
+            <lastmod>2023-05-29T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/certificateauthority/</loc>
+            <lastmod>2023-05-07T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/newvm/</loc>
+            <lastmod>2023-04-30T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/master2022/</loc>
+            <lastmod>2023-01-16T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/prerequest/</loc>
+            <lastmod>2023-01-13T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/ntp/</loc>
+            <lastmod>2023-01-13T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/whatsapp/</loc>
+            <lastmod>2022-12-22T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/aboutme/</loc>
+            <lastmod>2022-11-11T14:44:51+02:00</lastmod>
+          </url>
+    
+  
+</urlset>

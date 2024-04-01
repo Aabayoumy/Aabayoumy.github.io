@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Links on ✨ Bayoumy blog</title>
+    <link>http://localhost:1313/tags/links/</link>
+    <description>Recent content in Links on ✨ Bayoumy blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>2022 ©️ abayoumy@outlook.com</copyright>
+    <lastBuildDate>Wed, 14 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/links/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HardeningKitty</title>
+      <link>http://localhost:1313/posts/hardeningkitty/</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hardeningkitty/</guid>
+      <description>HardeningKitty supports hardening of a Windows system.</description>
+    </item>
+    <item>
+      <title>PingCastle</title>
+      <link>http://localhost:1313/posts/pingcastle/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/pingcastle/</guid>
+      <description>PingCastle is an Active Directory security assessment tool.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Me on ✨ Bayoumy blog</title>
+    <link>http://localhost:1313/tags/me/</link>
+    <description>Recent content in Me on ✨ Bayoumy blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>2022 ©️ abayoumy@outlook.com</copyright>
+    <lastBuildDate>Thu, 22 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Friends Massages </title>
+      <link>http://localhost:1313/posts/whatsapp/</link>
+      <pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/whatsapp/</guid>
+      <description>👋 Hello, when i leave from Microsoft this what i received form my friends and colleges there 💕</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/posts/aboutme/</link>
+      <pubDate>Fri, 11 Nov 2022 14:44:51 +0200</pubDate>
+      <guid>http://localhost:1313/posts/aboutme/</guid>
+      <description>👋 Hello There, My Name is Ahmed Mohamed Bayoumy AKA Bayoumy 😍</description>
+    </item>
+  </channel>
+</rss>
