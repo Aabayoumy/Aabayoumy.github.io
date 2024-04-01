@@ -24,7 +24,7 @@ Also I will include my resorces.
 - Proxmox installed on 128G SSD
 - Hostname **pve1**
 - Remove **local-lvm** and expand **local** storage Must be done before create any VM Or contianer
-- Resorces: https://www.youtube.com/watch?v=**u8qTN3cCnQ&t=629s
+- Resorces: [Proxmox install](https://www.youtube.com/watch?v=_u8qTN3cCnQ&t=629s)
 - Settings for update using Proxmox Post Install Script https://tteck.github.io/Proxmox/
  ### Storage:
  1TB SSD formate and used as **local-lvm**
