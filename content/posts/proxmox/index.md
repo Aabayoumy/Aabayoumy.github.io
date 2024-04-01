@@ -37,6 +37,7 @@ I alrady have backups from this continers so i just restored theme 😊
 ### Files Share container (fs01):
 * Using TurnKey template --> https://www.youtube.com/watch?v=I7nfSCNKeck
 * ZFS dataset named **data** Mounted to Continer 
+* Share **data** with SMB & NFS
 ### Apt-Cacher-NG:
 * Becase i'm installing a lot of Debian based VM's and continers so this continer will download APT packegaes once then proxe it to all my VM's and continers.
 * Installed form https://tteck.github.io/Proxmox/ select to be privilaged continer.
