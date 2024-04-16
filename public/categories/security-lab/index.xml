@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Proxmox on ✨ Bayoumy blog</title>
-    <link>http://localhost:1313/tags/proxmox/</link>
-    <description>Recent content in Proxmox on ✨ Bayoumy blog</description>
+    <title>Security Lab on ✨ Bayoumy blog</title>
+    <link>http://localhost:1313/categories/security-lab/</link>
+    <description>Recent content in Security Lab on ✨ Bayoumy blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 ©️ abayoumy@outlook.com</copyright>
     <lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/proxmox/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/security-lab/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Windows Template</title>
       <link>http://localhost:1313/posts/proxmox2/</link>

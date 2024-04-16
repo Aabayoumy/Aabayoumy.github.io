@@ -7,15 +7,8 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 ©️ abayoumy@outlook.com</copyright>
-    <lastBuildDate>Sat, 30 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/lab/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>ProxMox Reinstall</title>
-      <link>http://localhost:1313/posts/proxmox/</link>
-      <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/proxmox/</guid>
-      <description>Proxmox I changed my main SSD for Proxmox that i used for Active Directory &amp;amp; security LAB, I&amp;rsquo;m docment hear my configration and prefeard settings.</description>
-    </item>
     <item>
       <title>Enable Remote Desktop</title>
       <link>http://localhost:1313/posts/rdp/</link>
