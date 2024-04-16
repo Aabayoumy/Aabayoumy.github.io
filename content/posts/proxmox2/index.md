@@ -1,7 +1,7 @@
 ---
 title: "Windows Template"
 date: 2024-04-01
-draft: true
+draft: false
 description: "Create Windows 2k22 & Windows 11 Template"
 tags: ["proxmox"]
 categories: ["security lab"]
