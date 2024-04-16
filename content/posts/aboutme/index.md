@@ -14,6 +14,16 @@ Experienced System/Network Administrator with 20+ Years Technical experience. Sk
 
 ### Work Experiences:
 
+- #### Security Consultant @ [Global Brands](https://gbrands.com/) (5/2023-Now)
+  - OnPrem Active Directory Security Assessment & Hardening.
+  - Implement Microsoft Defender for Identity.
+  - Implement Microsoft Defender for Office 365.
+- #### Senior infrastructure Manager @ _Palm Hills Development_ (1/2023-4/2023)
+  - Leading Technical projects in alignment of business goals .
+  - Supervise  infrastructure team,and help Technical support Team as second line support. 
+  - Ensure that the technology infrastructure runs smoothly and efficiently, especially for core business applications - CRM & ERP.
+  - Maintain, upgrade and manage the company systems, hardware, and networks.
+  - Manage Office 365 & Azure Tenants, On Prem AD & VMWare vSphare with Lenovo Blades & SAN.
 - #### Active Directory Support Engineer @ _Microsoft_ (7/2021-12/2022)
   - Support all **Active Directory** technologys for MEA customers.
   - Mentor for 3 Team members.
@@ -59,8 +69,9 @@ Experienced System/Network Administrator with 20+ Years Technical experience. Sk
 
 ---
 
-### Certificates:
-
+### Certificates: [Microsoft Certification Transcript](https://learn.microsoft.com/en-us/users/ahmedbayoumy-2721/transcript/d9w5za2g1lrxow1)
+- SC-200 Microsoft Certified: Security Operations Analyst Associate .
+- SC-300 Microsoft Certified: Microsoft Identity and Access Administrator .
 - VB.Net 2003 (Windows & Web)
 - MCSA 2003
 - MSITPro 2012.
