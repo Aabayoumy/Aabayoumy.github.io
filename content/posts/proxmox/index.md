@@ -1,10 +1,10 @@
 ---
-title: "ProxMox Reinstall"
+title: "Proxmox Reinstall"
 date: 2024-03-30
 draft: false
 description: "Reinstall my proxmox & lab"
 tags: ["proxmox"]
-categories: ["security lab"]
+categories: ["proxmox lab"]
 ---
 
 {{< badge >}}

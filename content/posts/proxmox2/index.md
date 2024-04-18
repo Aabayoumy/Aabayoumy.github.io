@@ -4,7 +4,7 @@ date: 2024-04-01
 draft: false
 description: "Create Windows 2k22 & Windows 11 Template"
 tags: ["proxmox"]
-categories: ["security lab"]
+categories: ["proxmox lab"]
 ---
 
 {{< badge >}}
