@@ -45,5 +45,7 @@ I alrady have backups from this continers so i just restored theme 😊
 * Run this command on clints to use it as APT proxy `echo 'Acquire::HTTP::Proxy "http://10.0.0.110:3142";' > /etc/apt/apt.conf.d/01-proxy`
 
 # Resorces
-https://www.youtube.com/playlist?list=PL3ljjyal211AbTqlxSo6CGBiVqsXw8wrp 
+- Proxmox install : https://www.youtube.com/watch?v=xD9Xyt2mdSI
+- Proxmox Security lab : https://www.youtube.com/playlist?list=PL3ljjyal211AbTqlxSo6CGBiVqsXw8wrp 
+
 
