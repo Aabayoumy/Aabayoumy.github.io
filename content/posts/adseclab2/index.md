@@ -11,7 +11,7 @@ categories: ["AD security"]
 Active Directory Security
 {{< /badge >}}
 
-<!-- {{< youtube  J6zvYrWLg8Y >}} -->
+{{< youtube  glWLHNeyzpQ >}}
 
 
 
