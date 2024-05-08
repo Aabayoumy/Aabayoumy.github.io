@@ -127,7 +127,7 @@
     "keywords": ["proxmox"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "247"
+    "wordCount": "322"
   }
   </script>
 
@@ -138,11 +138,15 @@
     
       <link href="mailto:abayoumy@outlook.com" rel="me" />
     
+      <link href="https://discord.gg/MBEMAQdt" rel="me" />
+    
       <link href="https://github.com/Aabayoumy" rel="me" />
     
       <link href="https://linkedin.com/in/abayoumy" rel="me" />
     
       <link href="https://twitter.com/abayoumy78" rel="me" />
+    
+      <link href="https://youtube.com/AhmedBayoumy" rel="me" />
     
   
   
@@ -418,15 +422,6 @@
 
     
     
-      <span class="ps-2"><span class="flex">
-  <span
-    class="ms-1 rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
-  >
-    Draft
-  </span>
-</span>
-</span>
-    
   </div>
 
   
@@ -436,9 +431,9 @@
         
           
             <a
-              href="/categories/security-lab/"
+              href="/categories/proxmox-lab/"
               class="mx-1 my-1 rounded-md border border-neutral-200 px-1 py-[1px] hover:border-primary-300 hover:text-primary-700 dark:border-neutral-600 dark:hover:border-primary-600 dark:hover:text-primary-400"
-              >Security Lab</a
+              >Proxmox Lab</a
             >
           
         
@@ -489,7 +484,9 @@
     <nav id="TableOfContents">
   <ul>
     <li><a href="#downlaod-windows-isos">Downlaod windows ISO&rsquo;s</a></li>
-    <li><a href="#create-windows-server-2022-std-vm">Create Windows Server 2022 STD VM</a></li>
+    <li><a href="#download-scripts-folder-from-httpsgithubcomaabayoumysecurity-lab">Download scripts folder from <a href="https://github.com/Aabayoumy/Security-LAB">https://github.com/Aabayoumy/Security-LAB</a></a></li>
+    <li><a href="#create-windows-server-2022-std-template">Create Windows Server 2022 STD Template</a></li>
+    <li><a href="#create-windows-11-enterprise-template">Create Windows 11 Enterprise Template</a></li>
   </ul>
 </nav>
   </div>
@@ -515,7 +512,7 @@ Proxmox
 <li><a href="https://pve.proxmox.com/wiki/Windows_VirtIO_Drivers" target="_blank" rel="noreferrer">Windows VirtIO Drivers</a></li>
 <li>Upload it to proxmox storage.</li>
 </ul>
-<h2 id="create-windows-server-2022-std-vm" class="relative group">Create Windows Server 2022 STD VM <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#create-windows-server-2022-std-vm" aria-label="Anchor">#</a></span></h2><ul>
+<h2 id="download-scripts-folder-from-httpsgithubcomaabayoumysecurity-lab" class="relative group">Download scripts folder from <a href="https://github.com/Aabayoumy/Security-LAB" target="_blank" rel="noreferrer">https://github.com/Aabayoumy/Security-LAB</a> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#download-scripts-folder-from-httpsgithubcomaabayoumysecurity-lab" aria-label="Anchor">#</a></span></h2><h2 id="create-windows-server-2022-std-template" class="relative group">Create Windows Server 2022 STD Template <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#create-windows-server-2022-std-template" aria-label="Anchor">#</a></span></h2><ul>
 <li><a href="https://pve.proxmox.com/wiki/Windows_2022_guest_best_practices" target="_blank" rel="noreferrer">Windows 2022 guest best practices</a></li>
 <li><a href="https://www.youtube.com/watch?v=1MjA-rBV9Q4" target="_blank" rel="noreferrer">Virtualize Windows Server 2022 in Proxmox - VLANs, Sysprep, and Template!</a></li>
 <li>Windows Server 2022 VM conf file:</li>
@@ -545,9 +542,10 @@ vmgenid: c6a03c43-1501-49ee-8539-0812576159b3
 </code></pre><ul>
 <li>Start the VM, install windows:
 <ul>
+<li>Select to install <strong>Windows Server 2022 Standard(Desktop Experiance)</strong></li>
 <li>Follow the installer steps until you reach the installation type selection where you need to select &ldquo;Custom (advanced)&rdquo; Now click &ldquo;Load driver&rdquo; to install the VirtIO drivers for hard disk and the network.
 <ul>
-<li>Hard disk: Browse to the CD drive where you mounted the VirtIO driver and select folder &ldquo;vioscsi\2k19\amd64&rdquo; and confirm. Select the &ldquo;Red Hat VirtIO SCSI pass-through controller&rdquo; and click next to install it. Now you should see your drive.</li>
+<li>Hard disk: Browse to the CD drive where you mounted the VirtIO driver and select folder &ldquo;amd64\2k22&rdquo; and confirm. Select the &ldquo;Red Hat VirtIO SCSI pass-through controller&rdquo; and click next to install it. Now you should see your drive.</li>
 <li>Network: Repeat the steps from above (click again &ldquo;Load driver&rdquo;, etc.) and select the folder &ldquo;NetKVM\2k19\amd64&rdquo;, confirm it and select &ldquo;Redhat VirtIO Ethernet Adapter&rdquo; and click next.</li>
 <li>Memory Ballooning: Again, repeat the steps but this time select the &ldquo;Balloon\2k19\amd64&rdquo; folder, then the &ldquo;VirtIO Balloon Driver&rdquo; and install it by clicking next. With these three drivers you should be good covered to run a fast virtualized Windows Server 2022 system.</li>
 </ul>
@@ -555,7 +553,18 @@ vmgenid: c6a03c43-1501-49ee-8539-0812576159b3
 <li>Choose the drive and continue the Windows installer steps.</li>
 </ul>
 </li>
+<li>Install drivers from VirtIO mounted ISO &ldquo;virtio-win-gt-x64.msi&rdquo; then restart.</li>
+<li>Install the &ldquo;Qemu Guest Agent&rdquo;. The installer is located on the driver CD under guest-agent\qemu-ga-x86_64.msi.</li>
+<li>Make full windows update and install any needed sonfware.</li>
+<li>Copy Script folder to C:\Scripts</li>
+<li>Open PowerShell As Admin:</li>
 </ul>
+<pre tabindex="0"><code>cd c:\Scripts
+.\sysprep.cmd
+</code></pre><ul>
+<li>After VM shutdown, convert it to Template.</li>
+</ul>
+<h2 id="create-windows-11-enterprise-template" class="relative group">Create Windows 11 Enterprise Template <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#create-windows-11-enterprise-template" aria-label="Anchor">#</a></span></h2><p>Same as Windows servers steps</p>
 
       </div>
     </section>
@@ -583,7 +592,7 @@ vmgenid: c6a03c43-1501-49ee-8539-0812576159b3
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >ProxMox Reinstall</span
+                  >Proxmox Reinstall</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
@@ -595,6 +604,25 @@ vmgenid: c6a03c43-1501-49ee-8539-0812576159b3
           
         </span>
         <span>
+          
+            <a class="group flex text-right" href="/posts/adseclab1/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >01-Introduction</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2024-04-18 00:00:00 &#43;0000 UTC">18 April 2024</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&rarr;</span
+                ><span class="ltr:hidden rtl:inline">&larr;</span></span
+              >
+            </a>
           
         </span>
       </div>
