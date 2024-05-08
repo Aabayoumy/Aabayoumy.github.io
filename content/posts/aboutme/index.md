@@ -14,7 +14,11 @@ Security Consultant (OnPrem & Azure), Experienced System/Network Administrator w
 
 ### Work Experiences:
 
-- #### Security Consultant @ [Global Brands](https://gbrands.com/) (5/2023-Now)
+- #### Senior Security Consultant @ [Global Brands](https://gbrands.com/) (5/2024-Now)
+  - OnPrem Active Directory Security Assessment & Hardening.
+  - Implement Microsoft Defender for Identity.
+  - Implement Microsoft Defender for Office 365.
+- #### Security Consultant @ [Global Brands](https://gbrands.com/) (5/2023-4/2024)
   - OnPrem Active Directory Security Assessment & Hardening.
   - Implement Microsoft Defender for Identity.
   - Implement Microsoft Defender for Office 365.
