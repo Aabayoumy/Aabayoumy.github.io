@@ -13,3 +13,7 @@ summaryLength = 0
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+  
+[services]
+  [services.disqus]
+    shortname = 'ahmedbayoumy'
