@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>2022 ©️ abayoumy@outlook.com</copyright>
-    <lastBuildDate>Wed, 08 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tools</title>
+      <link>http://localhost:1313/categories/tools/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/tools/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AD Security</title>
       <link>http://localhost:1313/categories/ad-security/</link>
