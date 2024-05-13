@@ -33,7 +33,7 @@ apt install zabbix-server-mysql zabbix-frontend-php zabbix-apache-conf zabbix-sq
 mysql -uroot -p
 #Enter root password
 create database zabbix character set utf8mb4 collate utf8mb4_bin;
-create user zabbix@localhost identified by 'Zabbi1x';
+create user zabbix@localhost identified by 'Zabb1x';
 grant all privileges on zabbix.* to zabbix@localhost;
 set global log_bin_trust_function_creators = 1;
 quit;
@@ -51,10 +51,10 @@ mysql -uroot -p
  quit;
 ```
 - Configure the database for Zabbix server
-Edit file /etc/zabbix/zabbix_server.conf `DBPassword=password`
+Edit file /etc/zabbix/zabbix_server.conf `DBPassword=Zabb1x`
 - Start Zabbix server and agent processes
 ```shell
 systemctl restart zabbix-server zabbix-agent apache2
 systemctl enable zabbix-server zabbix-agent apache2 
 ```
-- Open Zabbix UI web page http://host/zabbix
+- Open Zabbix UI web page http://host/zabbix, user name Admin with password zabbix
