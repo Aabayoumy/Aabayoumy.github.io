@@ -9,7 +9,7 @@ categories: ["Tools"]
 
 {{< youtube  kQOVlVWk_GA >}}
 
-## Install Ubutnu Server 24.04
+## [Install Ubutnu Server 24.04](https://www.youtube.com/watch?v=n7aEcfDNULc)
 ## Install [MariaDB](https://linuxsecurity.com/howtos/secure-my-webserver/installing-securing-mariadb)
 ```shell 
 sudo apt update && apt full-upgrade -y
