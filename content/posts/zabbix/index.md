@@ -31,23 +31,24 @@ apt install zabbix-server-mysql zabbix-frontend-php zabbix-apache-conf zabbix-sq
 - Create initial database 
 ```shell
 mysql -uroot -p
-password
-mysql> create database zabbix character set utf8mb4 collate utf8mb4_bin;
-mysql> create user zabbix@localhost identified by 'password';
-mysql> grant all privileges on zabbix.* to zabbix@localhost;
-mysql> set global log_bin_trust_function_creators = 1;
-mysql> quit;
+#Enter root password
+create database zabbix character set utf8mb4 collate utf8mb4_bin;
+create user zabbix@localhost identified by 'Zabbi1x';
+grant all privileges on zabbix.* to zabbix@localhost;
+set global log_bin_trust_function_creators = 1;
+quit;
 ```
 - Import DB 
 ```shell
-zcat /usr/share/zabbix-sql-scripts/mysql/server.sql.gz | mysql --default-character-set=utf8mb4 -uzabbix -p zabbix `
+zcat /usr/share/zabbix-sql-scripts/mysql/server.sql.gz | mysql --default-character-set=utf8mb4 -uzabbix -p zabbix
+#Enter Zabbix user password
 ```
 - Disable log_bin_trust_function_creators option after importing database schema.
 ```shell
 mysql -uroot -p
-password
-mysql> set global log_bin_trust_function_creators = 0;
-mysql> quit;
+#Enter root password
+ set global log_bin_trust_function_creators = 0;
+ quit;
 ```
 - Configure the database for Zabbix server
 Edit file /etc/zabbix/zabbix_server.conf `DBPassword=password`
