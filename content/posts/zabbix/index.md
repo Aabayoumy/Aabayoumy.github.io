@@ -7,10 +7,12 @@ tags: ["Zabbix"]
 categories: ["Tools"]
 ---
 
+{{< youtube  kQOVlVWk_GA >}}
+
 ## Install Ubutnu Server 24.04
 ## Install [MariaDB](https://linuxsecurity.com/howtos/secure-my-webserver/installing-securing-mariadb)
 ```shell 
-sudo apt update && apt fullupgrade -y
+sudo apt update && apt full-upgrade -y
 sudo apt install mariadb-server
 sudo systemctl enable --now mariadb
 sudo mysql_secure_installation
@@ -25,7 +27,7 @@ sudo su
 cd /tmp
 wget https://repo.zabbix.com/zabbix/6.4/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.4-1+ubuntu24.04_all.deb
 dpkg -i zabbix-release_6.4-1+ubuntu24.04_all.deb
-apt update && apt fullupgrade -y
+apt update && apt full-upgrade -y
 apt install zabbix-server-mysql zabbix-frontend-php zabbix-apache-conf zabbix-sql-scripts zabbix-agent
 ```
 - Create initial database 
