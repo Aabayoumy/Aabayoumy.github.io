@@ -13,6 +13,13 @@
   
     
       <url>
+            <loc>http://localhost:1313/posts/zabbixagent/</loc>
+            <lastmod>2024-05-13T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
             <loc>http://localhost:1313/posts/zabbix/</loc>
             <lastmod>2024-05-13T00:00:00+00:00</lastmod>
           </url>

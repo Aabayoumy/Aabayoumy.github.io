@@ -1,5 +1,5 @@
 ---
-title: "Install Zabbix"
+title: "Install Zabbi Server"
 date: 2024-05-13
 draft: false
 description: "Install Zabbix on Ubuntu Server 24.04"
