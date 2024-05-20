@@ -7,7 +7,7 @@ tags: ["Zabbix"]
 categories: ["Tools"]
 ---
 
-{{< youtube  kQOVlVWk_GA >}}
+{{< youtube  (kmMc-zqCGiA) >}}
 
 - Download [Zabbix Agent for Windows](https://www.zabbix.com/download_agents?version=6.4&release=6.4.14&os=Windows&os_version=Any&hardware=amd64&encryption=OpenSSL&packaging=MSI&show_legacy=0).
 - Copy it to domain sysvol folder.
@@ -15,7 +15,7 @@ categories: ["Tools"]
 ```PowerShell
 ### Created using ChatGPT
 # Check if Zabbix agent is already installed
-if (Get-WmiObject -Class Win32_Product | Where-Object { $_.Name -eq "Zabbix Agent" }) {
+if (Get-WmiObject -Class Win32_Product | Where-Object { $_.Name -eq "Zabbix Agent (64-bit)" }) {
     Write-Output "Zabbix Agent is already installed. Exiting..."
     Exit
 }

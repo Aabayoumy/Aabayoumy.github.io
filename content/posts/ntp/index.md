@@ -66,20 +66,20 @@ We will create 2 GPO's each one with WMI filter, Open Group Policy Management co
 ### PDC
 
 1. On `PDC` force Group Policy update `Gpupdate /force`
-2. Force time sync `w32tm  /resync /rediscover /no_wait`
+2. Force time sync `w32tm  /resync /rediscover`
 3. Check status & last sync `w32tm  /query /status` source must be `time.windows.com`
 4. Check effective configuration `w32tm  /query /configuration`
 
 ### Other DC
 
 1. On any `DC` ,force Group Policy update `Gpupdate /force`
-2. Force time sync `w32tm  /resync /rediscover /no_wait`
+2. Force time sync `w32tm  /resync /rediscover`
 3. Check status & last sync `w32tm  /query /status` source must be the `PDC`.
 4. Check effective configuration `w32tm  /query /configuration`
 
 ### Any Member server or workstation
 
 1. On any other computer,force Group Policy update `Gpupdate /force`
-2. Force time sync `w32tm  /resync /rediscover /no_wait`
+2. Force time sync `w32tm  /resync /rediscover`
 3. Check status & last sync `w32tm  /query /status` source must be any `DC`.
 4. Check effective configuration `w32tm  /query /configuration`
