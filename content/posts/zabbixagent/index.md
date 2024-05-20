@@ -7,7 +7,8 @@ tags: ["Zabbix"]
 categories: ["Tools"]
 ---
 
-{{< youtube  (kmMc-zqCGiA) >}}
+{{< youtube  kmMc-zqCGiA >}}
+
 
 - Download [Zabbix Agent for Windows](https://www.zabbix.com/download_agents?version=6.4&release=6.4.14&os=Windows&os_version=Any&hardware=amd64&encryption=OpenSSL&packaging=MSI&show_legacy=0).
 - Copy it to domain sysvol folder.
