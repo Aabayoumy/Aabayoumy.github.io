@@ -185,5 +185,6 @@ My Terminal Settings:
     "themes": []
 }
 ```
-
-
+## Inspired by:
+- https://github.com/ChrisTitusTech/powershell-profile
+- https://www.youtube.com/watch?v=Q11sSltuTE0&pp
