@@ -4,15 +4,22 @@
     <title>Tags on ✨ Bayoumy blog</title>
     <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on ✨ Bayoumy blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>2022 ©️ abayoumy@outlook.com</copyright>
-    <lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PowerShell</title>
+      <link>http://localhost:1313/tags/powershell/</link>
+      <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/powershell/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Zabbix</title>
       <link>http://localhost:1313/tags/zabbix/</link>
-      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/zabbix/</guid>
       <description></description>
     </item>

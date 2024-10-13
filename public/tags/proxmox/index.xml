@@ -4,7 +4,7 @@
     <title>Proxmox on ✨ Bayoumy blog</title>
     <link>http://localhost:1313/tags/proxmox/</link>
     <description>Recent content in Proxmox on ✨ Bayoumy blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>2022 ©️ abayoumy@outlook.com</copyright>
     <lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate>
@@ -14,14 +14,14 @@
       <link>http://localhost:1313/posts/proxmox2/</link>
       <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/proxmox2/</guid>
-      <description>Proxmox Downlaod windows ISO&amp;rsquo;s # [Windows Server2022] (https://www.</description>
+      <description>Proxmox&#xD;Downlaod windows ISO&amp;rsquo;s # [Windows Server2022] (https://www.</description>
     </item>
     <item>
       <title>Proxmox Reinstall</title>
       <link>http://localhost:1313/posts/proxmox/</link>
       <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/proxmox/</guid>
-      <description>Proxmox I changed my main SSD for Proxmox that i used for Active Directory &amp;amp; security LAB, I&amp;rsquo;m docment hear my configration and prefeard settings.</description>
+      <description>Proxmox&#xD;I changed my main SSD for Proxmox that i used for Active Directory &amp;amp; security LAB, I&amp;rsquo;m docment hear my configration and prefeard settings.</description>
     </item>
   </channel>
 </rss>

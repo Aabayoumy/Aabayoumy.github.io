@@ -4,15 +4,22 @@
     <title>Tools on ✨ Bayoumy blog</title>
     <link>http://localhost:1313/categories/tools/</link>
     <description>Recent content in Tools on ✨ Bayoumy blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>2022 ©️ abayoumy@outlook.com</copyright>
-    <lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PowerShell Profile</title>
+      <link>http://localhost:1313/posts/ps-profile/</link>
+      <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ps-profile/</guid>
+      <description>Install PowerShell 7 #From Microsoft Documentation, or using winget:</description>
+    </item>
     <item>
       <title>Install Zabbi Agent</title>
       <link>http://localhost:1313/posts/zabbixagent/</link>
-      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/zabbixagent/</guid>
       <description>Download Zabbix Agent for Windows.</description>
     </item>

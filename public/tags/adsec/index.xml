@@ -4,7 +4,7 @@
     <title>Adsec on ✨ Bayoumy blog</title>
     <link>http://localhost:1313/tags/adsec/</link>
     <description>Recent content in Adsec on ✨ Bayoumy blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>2022 ©️ abayoumy@outlook.com</copyright>
     <lastBuildDate>Wed, 08 May 2024 00:00:00 +0000</lastBuildDate>
@@ -14,14 +14,14 @@
       <link>http://localhost:1313/posts/adseclab2/</link>
       <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/adseclab2/</guid>
-      <description>Active Directory Security Download Security BaseLine, Extract &amp;amp; copy to Domain Controller:</description>
+      <description>Active Directory Security&#xD;Download Security BaseLine, Extract &amp;amp; copy to Domain Controller:</description>
     </item>
     <item>
       <title>01-Introduction</title>
       <link>http://localhost:1313/posts/adseclab1/</link>
       <pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/adseclab1/</guid>
-      <description> Active Directory Security Scripts Security BaseLine </description>
+      <description>&#xD;Active Directory Security&#xD;Scripts Security BaseLine </description>
     </item>
   </channel>
 </rss>

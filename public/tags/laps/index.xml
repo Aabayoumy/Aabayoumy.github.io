@@ -4,7 +4,7 @@
     <title>LAPS on ✨ Bayoumy blog</title>
     <link>http://localhost:1313/tags/laps/</link>
     <description>Recent content in LAPS on ✨ Bayoumy blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>2022 ©️ abayoumy@outlook.com</copyright>
     <lastBuildDate>Mon, 29 May 2023 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>http://localhost:1313/posts/laps/</link>
       <pubDate>Mon, 29 May 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/laps/</guid>
-      <description>Active Directory Prerequisite # Implement new LAPS https://learn.</description>
+      <description>Active Directory&#xD;Prerequisite # Implement new LAPS https://learn.</description>
     </item>
   </channel>
 </rss>

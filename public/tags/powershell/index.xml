@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PowerShell on ✨ Bayoumy blog</title>
+    <link>http://localhost:1313/tags/powershell/</link>
+    <description>Recent content in PowerShell on ✨ Bayoumy blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>2022 ©️ abayoumy@outlook.com</copyright>
+    <lastBuildDate>Sun, 13 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PowerShell Profile</title>
+      <link>http://localhost:1313/posts/ps-profile/</link>
+      <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ps-profile/</guid>
+      <description>Install PowerShell 7 #From Microsoft Documentation, or using winget:</description>
+    </item>
+  </channel>
+</rss>

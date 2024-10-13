@@ -4,15 +4,22 @@
     <title>My Blog on ✨ Bayoumy blog</title>
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in My Blog on ✨ Bayoumy blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>2022 ©️ abayoumy@outlook.com</copyright>
-    <lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PowerShell Profile</title>
+      <link>http://localhost:1313/posts/ps-profile/</link>
+      <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ps-profile/</guid>
+      <description>Install PowerShell 7 #From Microsoft Documentation, or using winget:</description>
+    </item>
     <item>
       <title>Install Zabbi Agent</title>
       <link>http://localhost:1313/posts/zabbixagent/</link>
-      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/zabbixagent/</guid>
       <description>Download Zabbix Agent for Windows.</description>
     </item>
@@ -28,28 +35,28 @@
       <link>http://localhost:1313/posts/adseclab2/</link>
       <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/adseclab2/</guid>
-      <description>Active Directory Security Download Security BaseLine, Extract &amp;amp; copy to Domain Controller:</description>
+      <description>Active Directory Security&#xD;Download Security BaseLine, Extract &amp;amp; copy to Domain Controller:</description>
     </item>
     <item>
       <title>01-Introduction</title>
       <link>http://localhost:1313/posts/adseclab1/</link>
       <pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/adseclab1/</guid>
-      <description> Active Directory Security Scripts Security BaseLine </description>
+      <description>&#xD;Active Directory Security&#xD;Scripts Security BaseLine </description>
     </item>
     <item>
       <title>Windows Template</title>
       <link>http://localhost:1313/posts/proxmox2/</link>
       <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/proxmox2/</guid>
-      <description>Proxmox Downlaod windows ISO&amp;rsquo;s # [Windows Server2022] (https://www.</description>
+      <description>Proxmox&#xD;Downlaod windows ISO&amp;rsquo;s # [Windows Server2022] (https://www.</description>
     </item>
     <item>
       <title>Proxmox Reinstall</title>
       <link>http://localhost:1313/posts/proxmox/</link>
       <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/proxmox/</guid>
-      <description>Proxmox I changed my main SSD for Proxmox that i used for Active Directory &amp;amp; security LAB, I&amp;rsquo;m docment hear my configration and prefeard settings.</description>
+      <description>Proxmox&#xD;I changed my main SSD for Proxmox that i used for Active Directory &amp;amp; security LAB, I&amp;rsquo;m docment hear my configration and prefeard settings.</description>
     </item>
     <item>
       <title>HardeningKitty</title>
@@ -70,49 +77,49 @@
       <link>http://localhost:1313/posts/rdp/</link>
       <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/rdp/</guid>
-      <description>Windows Server 2022 Active Directory We will enable Remote desktop with Group policy</description>
+      <description>Windows Server 2022&#xD;Active Directory&#xD;We will enable Remote desktop with Group policy</description>
     </item>
     <item>
       <title>Create new local user to use with LAPS</title>
       <link>http://localhost:1313/posts/laps/</link>
       <pubDate>Mon, 29 May 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/laps/</guid>
-      <description>Active Directory Prerequisite # Implement new LAPS https://learn.</description>
+      <description>Active Directory&#xD;Prerequisite # Implement new LAPS https://learn.</description>
     </item>
     <item>
       <title>4- Install Certificate Authority</title>
       <link>http://localhost:1313/posts/certificateauthority/</link>
       <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/certificateauthority/</guid>
-      <description>Certificate Authority Active Directory We need Certificate Authority to secure LDAP , Remote Desktop &amp;amp; Remote PowerShell Connections.</description>
+      <description>Certificate Authority&#xD;Active Directory&#xD;We need Certificate Authority to secure LDAP , Remote Desktop &amp;amp; Remote PowerShell Connections.</description>
     </item>
     <item>
       <title>3- Create VM from Master Image</title>
       <link>http://localhost:1313/posts/newvm/</link>
       <pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/newvm/</guid>
-      <description>Hyper-V Windows Server 2022 Active Directory PreRequest # Hyper-v installation # Create Windows Server 2022 Master Disk with SysPrep # Install Active directory 1st Domain Controller #Create VM #Open PowerShell as administrator and run this commands:</description>
+      <description>Hyper-V&#xD;Windows Server 2022&#xD;Active Directory&#xD;PreRequest #&#xD;Hyper-v installation #&#xD;Create Windows Server 2022 Master Disk with SysPrep # Install Active directory 1st Domain Controller #Create VM #Open PowerShell as administrator and run this commands:</description>
     </item>
     <item>
       <title>2- Create Windows Server 2022 Master Disk with SysPrep</title>
       <link>http://localhost:1313/posts/master2022/</link>
       <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/master2022/</guid>
-      <description>Hyper-V Windows Server 2022 PreRequest : Hyper-v installation #Create Windows server 2022 VM .</description>
+      <description>Hyper-V&#xD;Windows Server 2022&#xD;PreRequest : Hyper-v installation #Create Windows server 2022 VM .</description>
     </item>
     <item>
       <title>1- Enable Hyper-V &amp; Prerequest</title>
       <link>http://localhost:1313/posts/prerequest/</link>
       <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/prerequest/</guid>
-      <description>Serves installation Hyper-V Enable Hyper-V : # Windows 10/11 Pro Computer with good amount of memory at least 16G, i have 32G and more is preferred 😃 Enable Hyper-v on Windows: Open PowerShell As Admin and run command and restart.</description>
+      <description>Serves installation&#xD;Hyper-V&#xD;Enable Hyper-V : # Windows 10/11 Pro Computer with good amount of memory at least 16G, i have 32G and more is preferred 😃 Enable Hyper-v on Windows: Open PowerShell As Admin and run command and restart.</description>
     </item>
     <item>
       <title>Time Sync Configuration in Active Directory</title>
       <link>http://localhost:1313/posts/ntp/</link>
       <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/ntp/</guid>
-      <description>Active Directory Windows Time Service This is enhanced ver of old Microsoft Article</description>
+      <description>Active Directory&#xD;Windows Time Service&#xD;This is enhanced ver of old Microsoft Article</description>
     </item>
     <item>
       <title>Friends Massages </title>

@@ -4,7 +4,7 @@
     <title>RDP on ✨ Bayoumy blog</title>
     <link>http://localhost:1313/tags/rdp/</link>
     <description>Recent content in RDP on ✨ Bayoumy blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>2022 ©️ abayoumy@outlook.com</copyright>
     <lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>http://localhost:1313/posts/rdp/</link>
       <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/rdp/</guid>
-      <description>Windows Server 2022 Active Directory We will enable Remote desktop with Group policy</description>
+      <description>Windows Server 2022&#xD;Active Directory&#xD;We will enable Remote desktop with Group policy</description>
     </item>
   </channel>
 </rss>

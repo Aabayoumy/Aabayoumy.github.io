@@ -4,7 +4,7 @@
     <title>NTP on ✨ Bayoumy blog</title>
     <link>http://localhost:1313/tags/ntp/</link>
     <description>Recent content in NTP on ✨ Bayoumy blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>2022 ©️ abayoumy@outlook.com</copyright>
     <lastBuildDate>Fri, 13 Jan 2023 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>http://localhost:1313/posts/ntp/</link>
       <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/ntp/</guid>
-      <description>Active Directory Windows Time Service This is enhanced ver of old Microsoft Article</description>
+      <description>Active Directory&#xD;Windows Time Service&#xD;This is enhanced ver of old Microsoft Article</description>
     </item>
   </channel>
 </rss>
