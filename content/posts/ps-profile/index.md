@@ -7,7 +7,7 @@ tags: ["PowerShell"]
 categories: ["Tools"]
 ---
 
-<!-- {{< youtube  kQOVlVWk_GA >}} -->
+{{< youtube  ZAvacWsiKJw >}}
 
 ## Install PowerShell 7
 From [Microsoft Documentation](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4), or using winget:
