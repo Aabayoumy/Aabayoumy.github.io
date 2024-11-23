@@ -5,8 +5,10 @@
     
       <url>
             <loc>http://localhost:1313/</loc>
-            <lastmod>2024-10-13T00:00:00+00:00</lastmod>
+            <lastmod>2024-11-23T00:00:00+00:00</lastmod>
           </url>
+    
+  
     
   
     
@@ -14,7 +16,18 @@
     
       <url>
             <loc>http://localhost:1313/posts/</loc>
-            <lastmod>2024-10-13T00:00:00+00:00</lastmod>
+            <lastmod>2024-11-23T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/virtmanager-1/</loc>
+            <lastmod>2024-11-23T00:00:00+00:00</lastmod>
           </url>
     
   
@@ -25,8 +38,6 @@
             <loc>http://localhost:1313/posts/ps-profile/</loc>
             <lastmod>2024-10-13T00:00:00+00:00</lastmod>
           </url>
-    
-  
     
   
     
@@ -63,8 +74,6 @@
             <loc>http://localhost:1313/posts/adseclab1/</loc>
             <lastmod>2024-04-18T00:00:00+00:00</lastmod>
           </url>
-    
-  
     
   
     

@@ -60,8 +60,8 @@
       defer
       type="text/javascript"
       id="script-bundle"
-      src="/js/main.bundle.min.9abdfbcc9a5d4d9ed7b5d31ceb05c0294430ec07b1dfec07809754d561269294.js"
-      integrity="sha256-mr37zJpdTZ7XtdMc6wXAKUQw7Aex3&#43;wHgJdU1WEmkpQ="
+      src="/js/main.bundle.min.af5d9722112bedac95702865c340bcd6286c4e9b2c15ce26b531ea1fba974cb8.js"
+      integrity="sha256-r12XIhEr7ayVcChlw0C81ihsTpssFc4mtTHqH7qXTLg="
       data-copy="Copy"
       data-copied="Copied"
     ></script>
@@ -117,12 +117,12 @@
     "name": "PowerShell Profile",
     "headline": "PowerShell Profile",
     "description": "PowerShell Profile \u0026 Windows Terminal Settings",
-    "abstract": "Install PowerShell 7 #From Microsoft Documentation, or using winget:",
+    
     "inLanguage": "en",
     "url" : "http:\/\/localhost:1313\/posts\/ps-profile\/",
     "author" : {
       "@type": "Person",
-      "name": "Ahmed Bayoumy"
+      "name": ""
     },
     "copyrightYear": "2024",
     "dateCreated": "2024-10-13T00:00:00\u002b00:00",
@@ -133,27 +133,13 @@
     "keywords": ["PowerShell"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "350"
+    "wordCount": "355"
   }
   </script>
 
 
   
-  <meta name="author" content="Ahmed Bayoumy" />
   
-    
-      <link href="mailto:abayoumy@outlook.com" rel="me" />
-    
-      <link href="https://discord.gg/MBEMAQdt" rel="me" />
-    
-      <link href="https://github.com/Aabayoumy" rel="me" />
-    
-      <link href="https://linkedin.com/in/abayoumy" rel="me" />
-    
-      <link href="https://twitter.com/abayoumy78" rel="me" />
-    
-      <link href="https://youtube.com/AhmedBayoumy" rel="me" />
-    
   
   
   
@@ -428,15 +414,6 @@
 
     
     
-      <span class="ps-2"><span class="flex">
-  <span
-    class="ms-1 rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
-  >
-    Draft
-  </span>
-</span>
-</span>
-    
   </div>
 
   
@@ -476,7 +453,7 @@
               width="800"
               height="800"
               
-                srcset="/posts/ps-profile/feature-ps-profile_hu6f9f8d160c16567f2089a8718674abec_7234_330x0_resize_box_3.png 330w,/posts/ps-profile/feature-ps-profile_hu6f9f8d160c16567f2089a8718674abec_7234_660x0_resize_box_3.png 660w,/posts/ps-profile/feature-ps-profile_hu6f9f8d160c16567f2089a8718674abec_7234_1024x0_resize_box_3.png 1024w,/posts/ps-profile/feature-ps-profile_hu6f9f8d160c16567f2089a8718674abec_7234_1320x0_resize_box_3.png 2x"
+                srcset="/posts/ps-profile/feature-ps-profile_hu11468971355408274621.png 330w,/posts/ps-profile/feature-ps-profile_hu10264981046848106971.png 660w,/posts/ps-profile/feature-ps-profile_hu187252025666731732.png 1024w,/posts/ps-profile/feature-ps-profile_hu17105862615637505970.png 2x"
               
             
             alt=""
@@ -501,6 +478,7 @@
     <li><a href="#install-powershell-7">Install PowerShell 7</a></li>
     <li><a href="#install-my-profilehttpsgithubcomaabayoumyps-profile"><a href="https://github.com/Aabayoumy/PS-Profile">Install my profile</a></a></li>
     <li><a href="#customize-windows-terminal">Customize Windows Terminal</a></li>
+    <li><a href="#inspired-by">Inspired by:</a></li>
   </ul>
 </nav>
   </div>
@@ -510,14 +488,14 @@
         </div>
       
       <div class="min-w-0 min-h-0 max-w-prose grow">
-        <!-- 
+        
 
     
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/kQOVlVWk_GA?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ZAvacWsiKJw?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
       ></iframe>
     </div>
- -->
+
 <h2 id="install-powershell-7" class="relative group">Install PowerShell 7 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#install-powershell-7" aria-label="Anchor">#</a></span></h2><p>From <a href="https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4" target="_blank" rel="noreferrer">Microsoft Documentation</a>, or using winget:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="n">winget</span> <span class="n">install</span> <span class="p">-</span><span class="n">-id</span> <span class="n">Microsoft</span><span class="p">.</span><span class="py">PowerShell</span> <span class="p">-</span><span class="n">-source</span> <span class="n">winget</span>
 </span></span></code></pre></div><p>If it&rsquo;s new installed system I like to install all my tools at once with <a href="https://github.com/ChrisTitusTech/winutil" target="_blank" rel="noreferrer">winutil</a></p>
@@ -680,7 +658,11 @@ Save the settings and restart Windows Terminal to apply the changes.</p>
 </span></span><span class="line"><span class="cl">    <span class="p">],</span>
 </span></span><span class="line"><span class="cl">    <span class="nt">&#34;themes&#34;</span><span class="p">:</span> <span class="p">[]</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div>
+</span></span></code></pre></div><h2 id="inspired-by" class="relative group">Inspired by: <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#inspired-by" aria-label="Anchor">#</a></span></h2><ul>
+<li><a href="https://github.com/ChrisTitusTech/powershell-profile" target="_blank" rel="noreferrer">https://github.com/ChrisTitusTech/powershell-profile</a></li>
+<li><a href="https://www.youtube.com/watch?v=Q11sSltuTE0&amp;pp" target="_blank" rel="noreferrer">https://www.youtube.com/watch?v=Q11sSltuTE0&pp</a></li>
+</ul>
+
       </div>
     </section>
     <footer class="pt-8 max-w-prose print:hidden">
@@ -719,6 +701,25 @@ Save the settings and restart Windows Terminal to apply the changes.</p>
           
         </span>
         <span>
+          
+            <a class="group flex text-right" href="/posts/virtmanager-1/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Virt-manager</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2024-11-23 00:00:00 &#43;0000 UTC">23 November 2024</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&rarr;</span
+                ><span class="ltr:hidden rtl:inline">&larr;</span></span
+              >
+            </a>
           
         </span>
       </div>

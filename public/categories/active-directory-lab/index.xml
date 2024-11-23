@@ -14,35 +14,35 @@
       <link>http://localhost:1313/posts/rdp/</link>
       <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/rdp/</guid>
-      <description>Windows Server 2022&#xD;Active Directory&#xD;We will enable Remote desktop with Group policy</description>
+      <description></description>
     </item>
     <item>
       <title>4- Install Certificate Authority</title>
       <link>http://localhost:1313/posts/certificateauthority/</link>
       <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/certificateauthority/</guid>
-      <description>Certificate Authority&#xD;Active Directory&#xD;We need Certificate Authority to secure LDAP , Remote Desktop &amp;amp; Remote PowerShell Connections.</description>
+      <description></description>
     </item>
     <item>
       <title>3- Create VM from Master Image</title>
       <link>http://localhost:1313/posts/newvm/</link>
       <pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/newvm/</guid>
-      <description>Hyper-V&#xD;Windows Server 2022&#xD;Active Directory&#xD;PreRequest #&#xD;Hyper-v installation #&#xD;Create Windows Server 2022 Master Disk with SysPrep # Install Active directory 1st Domain Controller #Create VM #Open PowerShell as administrator and run this commands:</description>
+      <description></description>
     </item>
     <item>
       <title>2- Create Windows Server 2022 Master Disk with SysPrep</title>
       <link>http://localhost:1313/posts/master2022/</link>
       <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/master2022/</guid>
-      <description>Hyper-V&#xD;Windows Server 2022&#xD;PreRequest : Hyper-v installation #Create Windows server 2022 VM .</description>
+      <description></description>
     </item>
     <item>
       <title>1- Enable Hyper-V &amp; Prerequest</title>
       <link>http://localhost:1313/posts/prerequest/</link>
       <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/prerequest/</guid>
-      <description>Serves installation&#xD;Hyper-V&#xD;Enable Hyper-V : # Windows 10/11 Pro Computer with good amount of memory at least 16G, i have 32G and more is preferred 😃 Enable Hyper-v on Windows: Open PowerShell As Admin and run command and restart.</description>
+      <description></description>
     </item>
   </channel>
 </rss>
