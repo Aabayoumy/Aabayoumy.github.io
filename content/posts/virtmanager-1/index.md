@@ -1,7 +1,7 @@
 ---
 title: "My lab beased on Virt-manager"
-date: 2024-11-23
-draft: true
+date: 2024-11-25
+draft: false
 description: "Build Active Directory lab in linux with KVM,libvirt & Virt-Manager"
 tags: ["Active Directory","lab", "Virt-Manager"]
 categories: ["Active Directory Lab"]
@@ -10,6 +10,8 @@ categories: ["Active Directory Lab"]
 {{< badge >}}
 ActiveDirectory Lab
 {{< /badge >}}
+
+{{< youtube Ybz0SgYrc0w >}}
 
 I reinstall my PC with [ArchLinux](https://archlinuxarm.org/) With [Hyprland](https://hyprland.org/), then install KVM,qemu,libvert and mange it with Virt-Manager, I just follow this gret [article](https://sysguides.com/install-kvm-on-linux).
 

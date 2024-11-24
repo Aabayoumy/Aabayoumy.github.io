@@ -10,7 +10,7 @@
     <lastBuildDate>Sat, 23 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Virt-manager</title>
+      <title>My lab beased on Virt-manager</title>
       <link>http://localhost:1313/posts/virtmanager-1/</link>
       <pubDate>Sat, 23 Nov 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/virtmanager-1/</guid>
