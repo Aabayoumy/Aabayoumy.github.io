@@ -1,6 +1,6 @@
 ---
 title: "My lab beased on Virt-manager"
-date: 2024-11-25
+date: 2024-11-24
 draft: false
 description: "Build Active Directory lab in linux with KVM,libvirt & Virt-Manager"
 tags: ["Active Directory","lab", "Virt-Manager"]
