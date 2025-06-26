@@ -4,24 +4,32 @@
     <title>Security Hardening on ✨ Bayoumy blog</title>
     <link>http://localhost:1313/tags/security-hardening/</link>
     <description>Recent content in Security Hardening on ✨ Bayoumy blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <managingEditor>ABayoumy@outlook.com (Ahmed Bayoumy)</managingEditor>
+    <webMaster>ABayoumy@outlook.com (Ahmed Bayoumy)</webMaster>
     <copyright>2022 ©️ abayoumy@outlook.com</copyright>
-    <lastBuildDate>Wed, 14 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/security-hardening/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/security-hardening/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>HardeningKitty</title>
       <link>http://localhost:1313/posts/hardeningkitty/</link>
       <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
       <guid>http://localhost:1313/posts/hardeningkitty/</guid>
       <description>HardeningKitty supports hardening of a Windows system.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/hardeningkitty/feature-HardeningKitty.jpg" />
     </item>
+    
     <item>
       <title>PingCastle</title>
       <link>http://localhost:1313/posts/pingcastle/</link>
       <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
       <guid>http://localhost:1313/posts/pingcastle/</guid>
       <description>PingCastle is an Active Directory security assessment tool.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/pingcastle/feature-pingcastle.jpg" />
     </item>
+    
   </channel>
 </rss>

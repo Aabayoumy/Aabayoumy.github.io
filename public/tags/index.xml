@@ -4,129 +4,182 @@
     <title>Tags on ✨ Bayoumy blog</title>
     <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on ✨ Bayoumy blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <managingEditor>ABayoumy@outlook.com (Ahmed Bayoumy)</managingEditor>
+    <webMaster>ABayoumy@outlook.com (Ahmed Bayoumy)</webMaster>
     <copyright>2022 ©️ abayoumy@outlook.com</copyright>
-    <lastBuildDate>Sat, 23 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Active Directory</title>
       <link>http://localhost:1313/tags/active-directory/</link>
-      <pubDate>Sat, 23 Nov 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
+      <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
       <guid>http://localhost:1313/tags/active-directory/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Lab</title>
       <link>http://localhost:1313/tags/lab/</link>
-      <pubDate>Sat, 23 Nov 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
+      <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
       <guid>http://localhost:1313/tags/lab/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Virt-Manager</title>
       <link>http://localhost:1313/tags/virt-manager/</link>
-      <pubDate>Sat, 23 Nov 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
+      <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
       <guid>http://localhost:1313/tags/virt-manager/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>PowerShell</title>
       <link>http://localhost:1313/tags/powershell/</link>
       <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
+      <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
       <guid>http://localhost:1313/tags/powershell/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Zabbix</title>
       <link>http://localhost:1313/tags/zabbix/</link>
       <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
+      <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
       <guid>http://localhost:1313/tags/zabbix/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Adsec</title>
       <link>http://localhost:1313/tags/adsec/</link>
       <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
+      <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
       <guid>http://localhost:1313/tags/adsec/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Proxmox</title>
       <link>http://localhost:1313/tags/proxmox/</link>
       <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
       <guid>http://localhost:1313/tags/proxmox/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Links</title>
       <link>http://localhost:1313/tags/links/</link>
       <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
       <guid>http://localhost:1313/tags/links/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Security Hardening</title>
       <link>http://localhost:1313/tags/security-hardening/</link>
       <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
       <guid>http://localhost:1313/tags/security-hardening/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>RDP</title>
       <link>http://localhost:1313/tags/rdp/</link>
       <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+      <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
       <guid>http://localhost:1313/tags/rdp/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>LAPS</title>
       <link>http://localhost:1313/tags/laps/</link>
       <pubDate>Mon, 29 May 2023 00:00:00 +0000</pubDate>
+      <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
       <guid>http://localhost:1313/tags/laps/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Certificate Authority</title>
       <link>http://localhost:1313/tags/certificate-authority/</link>
       <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
+      <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
       <guid>http://localhost:1313/tags/certificate-authority/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Hyper-V</title>
       <link>http://localhost:1313/tags/hyper-v/</link>
       <pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate>
+      <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
       <guid>http://localhost:1313/tags/hyper-v/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>SysPrep</title>
       <link>http://localhost:1313/tags/sysprep/</link>
       <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
+      <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
       <guid>http://localhost:1313/tags/sysprep/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>NTP</title>
       <link>http://localhost:1313/tags/ntp/</link>
       <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
+      <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
       <guid>http://localhost:1313/tags/ntp/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Windows Time Service</title>
       <link>http://localhost:1313/tags/windows-time-service/</link>
       <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
+      <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
       <guid>http://localhost:1313/tags/windows-time-service/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>Me</title>
       <link>http://localhost:1313/tags/me/</link>
       <pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate>
+      <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
       <guid>http://localhost:1313/tags/me/</guid>
       <description></description>
+      
     </item>
+    
   </channel>
 </rss>

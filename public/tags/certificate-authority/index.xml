@@ -4,17 +4,22 @@
     <title>Certificate Authority on ✨ Bayoumy blog</title>
     <link>http://localhost:1313/tags/certificate-authority/</link>
     <description>Recent content in Certificate Authority on ✨ Bayoumy blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <managingEditor>ABayoumy@outlook.com (Ahmed Bayoumy)</managingEditor>
+    <webMaster>ABayoumy@outlook.com (Ahmed Bayoumy)</webMaster>
     <copyright>2022 ©️ abayoumy@outlook.com</copyright>
-    <lastBuildDate>Sun, 07 May 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/certificate-authority/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/certificate-authority/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>4- Install Certificate Authority</title>
       <link>http://localhost:1313/posts/certificateauthority/</link>
       <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
+      <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
       <guid>http://localhost:1313/posts/certificateauthority/</guid>
       <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/certificateauthority/feature-CertificateAuthority.jpg" />
     </item>
+    
   </channel>
 </rss>

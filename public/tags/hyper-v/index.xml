@@ -4,31 +4,42 @@
     <title>Hyper-V on ✨ Bayoumy blog</title>
     <link>http://localhost:1313/tags/hyper-v/</link>
     <description>Recent content in Hyper-V on ✨ Bayoumy blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <managingEditor>ABayoumy@outlook.com (Ahmed Bayoumy)</managingEditor>
+    <webMaster>ABayoumy@outlook.com (Ahmed Bayoumy)</webMaster>
     <copyright>2022 ©️ abayoumy@outlook.com</copyright>
-    <lastBuildDate>Sun, 30 Apr 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/hyper-v/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/hyper-v/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>3- Create VM from Master Image</title>
       <link>http://localhost:1313/posts/newvm/</link>
       <pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate>
+      <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
       <guid>http://localhost:1313/posts/newvm/</guid>
       <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/newvm/feature-newVM.jpg" />
     </item>
+    
     <item>
       <title>2- Create Windows Server 2022 Master Disk with SysPrep</title>
       <link>http://localhost:1313/posts/master2022/</link>
       <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
+      <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
       <guid>http://localhost:1313/posts/master2022/</guid>
       <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/master2022/feature-master2022.jpg" />
     </item>
+    
     <item>
       <title>1- Enable Hyper-V &amp; Prerequest</title>
       <link>http://localhost:1313/posts/prerequest/</link>
       <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
+      <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
       <guid>http://localhost:1313/posts/prerequest/</guid>
       <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/prerequest/feature-ntp.jpg" />
     </item>
+    
   </channel>
 </rss>

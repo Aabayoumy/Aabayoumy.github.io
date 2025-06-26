@@ -4,17 +4,22 @@
     <title>Windows Time Service on ✨ Bayoumy blog</title>
     <link>http://localhost:1313/tags/windows-time-service/</link>
     <description>Recent content in Windows Time Service on ✨ Bayoumy blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <managingEditor>ABayoumy@outlook.com (Ahmed Bayoumy)</managingEditor>
+    <webMaster>ABayoumy@outlook.com (Ahmed Bayoumy)</webMaster>
     <copyright>2022 ©️ abayoumy@outlook.com</copyright>
-    <lastBuildDate>Fri, 13 Jan 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/windows-time-service/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/windows-time-service/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Time Sync Configuration in Active Directory</title>
       <link>http://localhost:1313/posts/ntp/</link>
       <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
+      <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
       <guid>http://localhost:1313/posts/ntp/</guid>
       <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/ntp/feature-ntp.jpg" />
     </item>
+    
   </channel>
 </rss>

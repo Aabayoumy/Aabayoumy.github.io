@@ -4,17 +4,22 @@
     <title>RDP on ✨ Bayoumy blog</title>
     <link>http://localhost:1313/tags/rdp/</link>
     <description>Recent content in RDP on ✨ Bayoumy blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <managingEditor>ABayoumy@outlook.com (Ahmed Bayoumy)</managingEditor>
+    <webMaster>ABayoumy@outlook.com (Ahmed Bayoumy)</webMaster>
     <copyright>2022 ©️ abayoumy@outlook.com</copyright>
-    <lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/rdp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/rdp/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Enable Remote Desktop</title>
       <link>http://localhost:1313/posts/rdp/</link>
       <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+      <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
       <guid>http://localhost:1313/posts/rdp/</guid>
       <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/rdp/feature-RDP.png" />
     </item>
+    
   </channel>
 </rss>

@@ -1,9 +1,0 @@
-baseURL = 'https://www.abayoumy.tech/'
-languageCode = 'en-us'
-title = 'ABayoumy Blogs'
-
-
-[services]
-  [services.disqus]
-    shortname = 'ahmedbayoumy'
-
