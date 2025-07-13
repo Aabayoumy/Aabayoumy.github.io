@@ -48,7 +48,7 @@ Now, let's configure our domain computers to automatically request and renew thi
 The final step is to configure the WinRM listener and firewall settings on each machine. We will use Group Policy to run commands and set firewall rules.
 
 1.  **Configure WinRM Listeners via Scheduled Tasks:**
-    In your GPO, navigate to `Computer Configuration -> Preferences -> Control Panel Settings -> Scheduled Tasks`. Create three new **Immediate Task (At least Windows 7)** tasks to ensure WinRM is configured correctly.
+    In your GPO, navigate to `Computer Configuration -> Preferences -> Control Panel Settings -> Scheduled Tasks`. Create new **Immediate Task (At least Windows 7)** task with 3 Actions to ensure WinRM is configured correctly.
 
     *   **Task 1: Quick-configure WinRM for HTTPS**
         *   **Name:** `WinRM Quick-Config HTTPS`
