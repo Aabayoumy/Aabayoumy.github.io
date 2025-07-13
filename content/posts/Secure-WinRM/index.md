@@ -26,7 +26,7 @@ First, we need a certificate template for our WinRM servers.
         *   Select **Application Policies** and click **Edit**.
         *   Remove **Client Authentication** and ensure **Server Authentication** is present.
     *   **Security Tab:**
-        *   Add the **Domain Computers** group and grant them **Read** and **Enroll** permissions.
+        *   Add the **Domain Computers** group and grant them **Read**,  **Enroll** and **Auto Enroll** permissions.
 5.  **Issue the Template:**
     *   Back in the Certificate Authority console, right-click **Certificate Templates**, go to **New**, and select **Certificate Template to Issue**.
     *   Choose the `WinRM SSL` template you just created.
