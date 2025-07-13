@@ -43,36 +43,46 @@ Now, let's configure our domain computers to automatically request and renew thi
     *   Set the **Configuration Model** to **Enabled**.
     *   Check the boxes for `Renew expired certificates...` and `Update certificates that use certificate templates`.
 
-## Step 3: Configure WinRM HTTPS Listener with a Startup Script
+## Step 3: Configure WinRM and Firewall using Group Policy
 
-The final step is to configure the WinRM listener on each machine. A startup script deployed via GPO is an effective way to do this.
+The final step is to configure the WinRM listener and firewall settings on each machine. We will use Group Policy to run commands and set firewall rules.
 
-1.  **Create the PowerShell Script:**
-    Create a PowerShell script named `Configure-WinRMHTTPS.ps1` with the following content. This script finds the correct certificate and creates the HTTPS listener if it doesn't exist.
+1.  **Configure WinRM Listeners via Scheduled Tasks:**
+    In your GPO, navigate to `Computer Configuration -> Preferences -> Control Panel Settings -> Scheduled Tasks`. Create three new **Immediate Task (At least Windows 7)** tasks to ensure WinRM is configured correctly.
 
-    ```powershell
-    # Get the FQDN of the computer
-    $fqdn = (Get-WmiObject Win32_ComputerSystem).DNSHostName + "." + (Get-WmiObject Win32_ComputerSystem).Domain
+    *   **Task 1: Quick-configure WinRM for HTTPS**
+        *   **Name:** `WinRM Quick-Config HTTPS`
+        *   **Program/script:** `C:\Windows\System32\winrm.cmd`
+        *   **Arguments:** `quickconfig -transport:https -quiet`
 
-    # Find the certificate issued from our template
-    $cert = Get-ChildItem -Path Cert:\LocalMachine\My | Where-Object {
-        $_.Subject -match "CN=$fqdn" -and $_.Extensions.EnhancedKeyUsage -match "Server Authentication"
-    } | Select-Object -First 1
+    *   **Task 2: Ensure HTTPS Listener Exists**
+        *   **Name:** `WinRM Create HTTPS Listener`
+        *   **Program/script:** `C:\Windows\System32\winrm.cmd`
+        *   **Arguments:** `create winrm/config/Listener?Address=*+Transport=HTTPS`
 
-    if ($cert) {
-        $thumbprint = $cert.Thumbprint
-        $listener = Get-Item -Path "WSMan:\localhost\Listener\*" | Where-Object { $_.Keys -contains "Transport=HTTPS" }
+    *   **Task 3: Remove the Insecure HTTP Listener**
+        *   **Name:** `WinRM Delete HTTP Listener`
+        *   **Program/script:** `C:\Windows\System32\winrm.cmd`
+        *   **Arguments:** `delete winrm/config/Listener?Address=*+Transport=HTTP`
 
-        if (-not $listener) {
-            New-Item -Path "WSMan:\localhost\Listener" -Transport HTTPS -Address * -CertificateThumbprint $thumbprint -Force
-        }
-    }
-    ```
+2.  **Configure Firewall Rules:**
+    In the same GPO, navigate to `Computer Configuration -> Policies -> Windows Settings -> Security Settings -> Windows Firewall with Advanced Security -> Inbound Rules`.
 
-2.  **Deploy the Script:**
-    *   Save the script to a network location that domain computers have read access to, such as the `NETLOGON` share on a domain controller.
-    *   In your GPO, navigate to `Computer Configuration -> Policies -> Windows Settings -> Scripts (Startup/Shutdown)`.
-    *   Double-click **Startup**, go to the **PowerShell Scripts** tab, and add your `Configure-WinRMHTTPS.ps1` script.
+    *   **Allow WinRM HTTPS (Port 5986):**
+        *   Right-click **Inbound Rules** and select **New Rule...**.
+        *   Select **Port**, click **Next**.
+        *   Select **TCP** and specify port `5986`. Click **Next**.
+        *   Select **Allow the connection**. Click **Next**.
+        *   Choose the profiles (Domain, Private, Public) that match your security policy. Click **Next**.
+        *   Give the rule a name, like `Allow WinRM HTTPS (5986)`. Click **Finish**.
+
+    *   **Block WinRM HTTP (Port 5985):**
+        *   Create another new rule.
+        *   Select **Port**, click **Next**.
+        *   Select **TCP** and specify port `5985`. Click **Next**.
+        *   Select **Block the connection**. Click **Next**.
+        *   Choose the profiles that match your security policy. Click **Next**.
+        *   Give the rule a name, like `Block WinRM HTTP (5985)`. Click **Finish**.
 
 3.  **Enable WinRM Service:**
     *   In the same GPO, navigate to `Computer Configuration -> Policies -> Administrative Templates -> Windows Components -> Windows Remote Management (WinRM) -> WinRM Service`.
@@ -81,3 +91,5 @@ The final step is to configure the WinRM listener on each machine. A startup scr
 ## Conclusion
 
 After applying the GPO, your computers will automatically enroll for the WinRM certificate and configure a secure HTTPS listener. This significantly improves the security of your remote management infrastructure. Remember to test the connection using `Test-WSMan` from another machine, ensuring you use the `-UseSSL` switch.
+
+***Disclaimer: This post was created with the assistance of Google's Gemini.***

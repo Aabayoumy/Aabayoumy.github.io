@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AD Security on ✨ Bayoumy blog</title>
-    <link>http://localhost:1313/categories/ad-security/</link>
+    <link>http://localhost:57902/categories/ad-security/</link>
     <description>Recent content in AD Security on ✨ Bayoumy blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>ABayoumy@outlook.com (Ahmed Bayoumy)</managingEditor>
     <webMaster>ABayoumy@outlook.com (Ahmed Bayoumy)</webMaster>
     <copyright>2022 ©️ abayoumy@outlook.com</copyright>
-    <lastBuildDate>Wed, 08 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/ad-security/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:57902/categories/ad-security/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>02-Security Baseline</title>
-      <link>http://localhost:1313/posts/adseclab2/</link>
+      <link>http://localhost:57902/posts/adseclab2/</link>
       <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
       <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
-      <guid>http://localhost:1313/posts/adseclab2/</guid>
+      <guid>http://localhost:57902/posts/adseclab2/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/adseclab2/feature-adsec.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:57902/posts/adseclab2/feature-adsec.png" />
     </item>
     
     <item>
       <title>01-Introduction</title>
-      <link>http://localhost:1313/posts/adseclab1/</link>
+      <link>http://localhost:57902/posts/adseclab1/</link>
       <pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate>
       <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
-      <guid>http://localhost:1313/posts/adseclab1/</guid>
+      <guid>http://localhost:57902/posts/adseclab1/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/adseclab1/feature-adsec.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:57902/posts/adseclab1/feature-adsec.png" />
     </item>
     
   </channel>

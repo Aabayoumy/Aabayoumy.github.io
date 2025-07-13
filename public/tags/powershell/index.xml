@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PowerShell on ✨ Bayoumy blog</title>
-    <link>http://localhost:1313/tags/powershell/</link>
+    <link>http://localhost:57902/tags/powershell/</link>
     <description>Recent content in PowerShell on ✨ Bayoumy blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>ABayoumy@outlook.com (Ahmed Bayoumy)</managingEditor>
     <webMaster>ABayoumy@outlook.com (Ahmed Bayoumy)</webMaster>
     <copyright>2022 ©️ abayoumy@outlook.com</copyright>
-    <lastBuildDate>Sun, 13 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:57902/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>PowerShell Profile</title>
-      <link>http://localhost:1313/posts/ps-profile/</link>
+      <link>http://localhost:57902/posts/ps-profile/</link>
       <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
       <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
-      <guid>http://localhost:1313/posts/ps-profile/</guid>
+      <guid>http://localhost:57902/posts/ps-profile/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/ps-profile/feature-ps-profile.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:57902/posts/ps-profile/featured.png" />
     </item>
     
   </channel>

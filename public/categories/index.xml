@@ -2,51 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on ✨ Bayoumy blog</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>http://localhost:57902/categories/</link>
     <description>Recent content in Categories on ✨ Bayoumy blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>ABayoumy@outlook.com (Ahmed Bayoumy)</managingEditor>
     <webMaster>ABayoumy@outlook.com (Ahmed Bayoumy)</webMaster>
     <copyright>2022 ©️ abayoumy@outlook.com</copyright>
-    <lastBuildDate>Sun, 24 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Jul 2025 12:35:03 +0300</lastBuildDate><atom:link href="http://localhost:57902/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Active Directory</title>
+      <link>http://localhost:57902/categories/active-directory/</link>
+      <pubDate>Sun, 13 Jul 2025 12:35:03 +0300</pubDate>
+      <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
+      <guid>http://localhost:57902/categories/active-directory/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Active Directory Lab</title>
-      <link>http://localhost:1313/categories/active-directory-lab/</link>
+      <link>http://localhost:57902/categories/active-directory-lab/</link>
       <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
       <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
-      <guid>http://localhost:1313/categories/active-directory-lab/</guid>
+      <guid>http://localhost:57902/categories/active-directory-lab/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Tools</title>
-      <link>http://localhost:1313/categories/tools/</link>
+      <link>http://localhost:57902/categories/tools/</link>
       <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
       <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
-      <guid>http://localhost:1313/categories/tools/</guid>
+      <guid>http://localhost:57902/categories/tools/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>AD Security</title>
-      <link>http://localhost:1313/categories/ad-security/</link>
+      <link>http://localhost:57902/categories/ad-security/</link>
       <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
       <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
-      <guid>http://localhost:1313/categories/ad-security/</guid>
+      <guid>http://localhost:57902/categories/ad-security/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Proxmox Lab</title>
-      <link>http://localhost:1313/categories/proxmox-lab/</link>
+      <link>http://localhost:57902/categories/proxmox-lab/</link>
       <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
       <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
-      <guid>http://localhost:1313/categories/proxmox-lab/</guid>
+      <guid>http://localhost:57902/categories/proxmox-lab/</guid>
       <description></description>
       
     </item>

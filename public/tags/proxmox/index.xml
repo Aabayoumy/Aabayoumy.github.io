@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Proxmox on ✨ Bayoumy blog</title>
-    <link>http://localhost:1313/tags/proxmox/</link>
+    <link>http://localhost:57902/tags/proxmox/</link>
     <description>Recent content in Proxmox on ✨ Bayoumy blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>ABayoumy@outlook.com (Ahmed Bayoumy)</managingEditor>
     <webMaster>ABayoumy@outlook.com (Ahmed Bayoumy)</webMaster>
     <copyright>2022 ©️ abayoumy@outlook.com</copyright>
-    <lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/proxmox/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:57902/tags/proxmox/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Windows Template</title>
-      <link>http://localhost:1313/posts/proxmox2/</link>
+      <link>http://localhost:57902/posts/proxmox2/</link>
       <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
       <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
-      <guid>http://localhost:1313/posts/proxmox2/</guid>
+      <guid>http://localhost:57902/posts/proxmox2/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/proxmox2/feature-proxmox2.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:57902/posts/proxmox2/feature-proxmox2.png" />
     </item>
     
     <item>
       <title>Proxmox Reinstall</title>
-      <link>http://localhost:1313/posts/proxmox/</link>
+      <link>http://localhost:57902/posts/proxmox/</link>
       <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
       <author>ABayoumy@outlook.com (Ahmed Bayoumy)</author>
-      <guid>http://localhost:1313/posts/proxmox/</guid>
+      <guid>http://localhost:57902/posts/proxmox/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/proxmox/feature-proxmox.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:57902/posts/proxmox/feature-proxmox.png" />
     </item>
     
   </channel>

@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on ✨ Bayoumy blog</title>
-    <link>http://localhost:1313/authors/</link>
+    <link>http://localhost:57902/authors/</link>
     <description>Recent content in Authors on ✨ Bayoumy blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>ABayoumy@outlook.com (Ahmed Bayoumy)</managingEditor>
     <webMaster>ABayoumy@outlook.com (Ahmed Bayoumy)</webMaster>
     <copyright>2022 ©️ abayoumy@outlook.com</copyright>
-    <atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57902/authors/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
