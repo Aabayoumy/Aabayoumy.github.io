@@ -1,2 +1,32 @@
 .DS_Store
-public
+CODEBASE_SUMMARY.md
+# Generated site (uncomment to ignore if you don't commit `/public/`)
+public/
+
+# Hugo generated resources and build artifacts
+resources/
+resources/_gen/
+hugo_stats.json
+.hugo_build.lock
+
+# Node / package managers
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Build tools / caches
+.env
+.sass-cache/
+.cache/
+dist/
+
+# Editors/IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+Thumbs.db
+
+# Logs
+*.log
