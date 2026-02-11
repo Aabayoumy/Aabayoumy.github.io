@@ -14,9 +14,12 @@ Windows IR / Hardening
 
 During malware activity (including post-exploitation following a security product incident), attackers often tamper with the Windows **hosts** file because it provides a fast, local way to control name resolution without touching DNS servers.
 
-Example (what this can look like during an AV incident): an attacker (or follow-on malware) edits `hosts` to block the security vendor's update or support endpoints so the endpoint cannot recover or receive new detections. If you're responding to an eScan-related incident, start from the official support channel and vendor guidance, then validate name resolution locally:
+Example (what this can look like during an AV incident): an attacker (or follow-on malware) edits `hosts` to block the security vendor's update or remediation endpoints so the endpoint cannot recover or receive new detections.
 
-- eScan Technical Support: https://www.escanav.com/en/support/escan-tech-support.asp
+For context on the broader pattern (tampering with defenses and update paths), see:
+
+- eScan Security Advisory (2026): https://download1.mwti.net/documents/Advisory/eScan_Security_Advisory_2026.pdf
+- MITRE ATT&CK - Impair Defenses (T1562.001): https://attack.mitre.org/techniques/T1562/001/
 
 Typical malicious `hosts` entries look like this:
 
