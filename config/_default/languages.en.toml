@@ -49,6 +49,7 @@ headline = "Husband, Father & Administrator!"
 #     { kickstarter = "https://www.kickstarter.com/profile/username" },
 #     { lastfm = "https://lastfm.com/user/username" },
  { linkedin = "https://linkedin.com/in/abayoumy" },
+ { whatsapp = "https://wa.me/ABayoumy" },
 #     { mastodon = "https://mastodon.instance/@username" },
 #     { medium = "https://medium.com/username" },
 #     { microsoft = "https://www.microsoft.com/" },
